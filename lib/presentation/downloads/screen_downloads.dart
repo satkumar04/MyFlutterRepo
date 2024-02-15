@@ -21,8 +21,6 @@ class ScreenDownloads extends StatelessWidget {
       BlocProvider.of<DownloadsBloc>(context)
           .add(const DownloadsEvent.getDownloadImage());
     });
-    // BlocProvider.of<DownloadsBloc>(context)
-    //     .add(const DownloadsEvent.getDownloadImage());
 
     return Scaffold(
       appBar: const PreferredSize(
